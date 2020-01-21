@@ -11,6 +11,19 @@ the script tested on macos, and the tested target linux box on **Ubuntu 18.04.1 
 
 ## How to Use
 
+pre-conditions:
+
+1. setup a yufu tenant, 
+2. enable yufu-ldap feature(contact yufu), get a yufu-ldap svc account/passwod
+3. setup posix schema in your yufu tenant
+    - posix account setup
+    - posix group setup
+4. setup linux sudoers
+    - setup a posix group with name of **sudo** in your yufu tenant
+    - assign some users to sudo group in yufu
+
+Then run the script:
+
 1. prepare your config, see conf/ldap.conf, search "replace-me"
 2. setup for fengxi@xfd1 and fengxi@xfd2:
 
