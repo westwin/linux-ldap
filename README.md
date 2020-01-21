@@ -13,7 +13,7 @@ the script tested on macos, and the tested target linux box on **Ubuntu 18.04.1 
 
 pre-conditions:
 
-1. setup a yufu tenant, 
+1. setup a yufu tenant
 2. enable yufu-ldap feature(contact yufu), get a yufu-ldap svc account/passwod
 3. setup posix schema in your yufu tenant
     - posix account setup
@@ -21,6 +21,10 @@ pre-conditions:
 4. setup linux sudoers
     - setup a posix group with name of **sudo** in your yufu tenant
     - assign some users to sudo group in yufu
+
+***NOTE***, before executing the script:
+
+**please keep a logged-in terminal for your target linux box in case the configuration is incorrect, you might can not login back.**
 
 Then run the script:
 
