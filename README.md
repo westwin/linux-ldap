@@ -2,7 +2,7 @@
 
 python automation script to setup linux authentication with yufu.
 
-the script tested on macos, and the target linux box is tested on **Ubuntu 18.04.1 LTS**
+the script tested on macos, and the tested target linux box on **Ubuntu 18.04.1 LTS**
 
 ## Dependencies
 
