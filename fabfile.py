@@ -18,6 +18,9 @@ from fabric2 import SerialGroup as Group
 
 @task()
 def os_version(c):
+    """
+    test util to print ubuntu version
+    """
     c.run("lsb_release -a")
 
 
@@ -76,4 +79,7 @@ def config(c):
 
 @task()
 def uninstall_deps(c):
+    """
+    uninstall the dependencies
+    """
     c.sudo("DEBIAN_FRONTEND=noninteractive apt-get remove -y libpam-ldap nscd")
